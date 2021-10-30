@@ -5,6 +5,7 @@
 
 import os
 import sys
+import playsound
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5 import QtWidgets, uic
@@ -13,6 +14,9 @@ from openpyxl import Workbook
 from openpyxl.workbook import Workbook
 from datetime import date
 import xlsxwriter
+
+
+
 
 
 def win10_display_notification(title, message):
@@ -88,7 +92,12 @@ class ApplicationUI(QtWidgets.QMainWindow):
         uic.loadUi(r"design\UI.ui", self)           # loading .ui design file.
         self.show()                                 # display the GUI.
         self.handleButtons()                        # loading the buttons events.
+        #self.play_sound()
 
+
+    def play_sound(self):
+        os.chdir(os.path.dirname(__file__))
+        playsound.playsound('track.mp3', True)
 
     def handleButtons(self: "ApplicationUI") -> None:
         """ Handling all buttons in the application """
@@ -126,19 +135,6 @@ class ApplicationUI(QtWidgets.QMainWindow):
                     record.write(record_content)
             except Exception as error_message:
                 print(f"[-] \n{error_message}\n")
-
-            # data_2_xlsx = f"{name}, {sallary}, {rewards}, {addational}, {regularity_value}, {delay_hours}, {absence_days}, {borrow_value}, {deduction_value}, {services_value}"
-            # wb = Workbook()
-            # ws = wb.active
-            
-
-            # dir_content = os.listdir()
-            # for item in dir_content:
-            #     if item != f"{date.today()}.xlsx":
-            #         pass
-            #     ws.append(data_2_xlsx)
-            #     wb.save('name.xlsx')
-
 
     def refresh(self: "ApplicationUI") -> None:
         """ Function to clear all text records """
