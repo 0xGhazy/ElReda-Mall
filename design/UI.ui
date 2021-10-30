@@ -818,7 +818,7 @@ QPushButton:active {
 }</string>
      </property>
      <property name="text">
-      <string>انشاء تقرير</string>
+      <string>عرض البيان</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_15">
@@ -889,6 +889,46 @@ QPushButton:active {
       <string>اعادة المحاولة</string>
      </property>
     </widget>
+   </widget>
+   <widget class="QPushButton" name="generate_finall_report">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>710</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Aria</family>
+      <pointsize>15</pointsize>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: white;
+	font: 87 15pt &quot;Aria&quot;;
+	background-color: rgb(35, 134, 54);
+	border-radius:7px;
+	border:1px solid #18ab29;
+}
+
+QPushButton:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#18ab29;
+}
+QPushButton:active {
+	position:relative;
+	top:2px;
+}</string>
+    </property>
+    <property name="text">
+     <string>انشاء تقرير نهائي</string>
+    </property>
    </widget>
   </widget>
  </widget>
