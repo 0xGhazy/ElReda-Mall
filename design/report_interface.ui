@@ -290,7 +290,7 @@ border-color: rgb(16, 20, 20);
 color: #dfac53;</string>
    </property>
    <property name="text">
-    <string>المـقـتـطـعـات</string>
+    <string>المـستقـطـعـات</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
@@ -355,9 +355,9 @@ color: #dfac53;</string>
   <widget class="QLabel" name="label_23">
    <property name="geometry">
     <rect>
-     <x>210</x>
+     <x>190</x>
      <y>310</y>
-     <width>101</width>
+     <width>111</width>
      <height>31</height>
     </rect>
    </property>
@@ -374,7 +374,7 @@ border-color: rgb(16, 20, 20);
 color: #dfac53;</string>
    </property>
    <property name="text">
-    <string>المكافأت:</string>
+    <string>المكافأت (حافز):</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -383,8 +383,8 @@ color: #dfac53;</string>
   <widget class="QLabel" name="label_24">
    <property name="geometry">
     <rect>
-     <x>210</x>
-     <y>350</y>
+     <x>200</x>
+     <y>400</y>
      <width>101</width>
      <height>31</height>
     </rect>
@@ -402,7 +402,7 @@ border-color: rgb(16, 20, 20);
 color: #dfac53;</string>
    </property>
    <property name="text">
-    <string>الراتب الأضافي:</string>
+    <string>انتقالات:</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -411,8 +411,8 @@ color: #dfac53;</string>
   <widget class="QLabel" name="label_25">
    <property name="geometry">
     <rect>
-     <x>210</x>
-     <y>390</y>
+     <x>200</x>
+     <y>370</y>
      <width>101</width>
      <height>31</height>
     </rect>
@@ -440,7 +440,7 @@ color: #dfac53;</string>
    <property name="geometry">
     <rect>
      <x>550</x>
-     <y>350</y>
+     <y>340</y>
      <width>91</width>
      <height>31</height>
     </rect>
@@ -468,7 +468,7 @@ color: #dfac53;</string>
    <property name="geometry">
     <rect>
      <x>550</x>
-     <y>430</y>
+     <y>400</y>
      <width>91</width>
      <height>31</height>
     </rect>
@@ -496,7 +496,7 @@ color: #dfac53;</string>
    <property name="geometry">
     <rect>
      <x>550</x>
-     <y>470</y>
+     <y>460</y>
      <width>91</width>
      <height>31</height>
     </rect>
@@ -552,7 +552,7 @@ color: #dfac53;</string>
    <property name="geometry">
     <rect>
      <x>550</x>
-     <y>390</y>
+     <y>370</y>
      <width>91</width>
      <height>31</height>
     </rect>
@@ -677,7 +677,7 @@ color: rgb(255, 255, 255)</string>
    <property name="geometry">
     <rect>
      <x>390</x>
-     <y>350</y>
+     <y>340</y>
      <width>111</width>
      <height>31</height>
     </rect>
@@ -705,7 +705,7 @@ color: rgb(255, 255, 255)</string>
    <property name="geometry">
     <rect>
      <x>390</x>
-     <y>390</y>
+     <y>370</y>
      <width>111</width>
      <height>31</height>
     </rect>
@@ -733,7 +733,7 @@ color: rgb(255, 255, 255)</string>
    <property name="geometry">
     <rect>
      <x>390</x>
-     <y>430</y>
+     <y>400</y>
      <width>111</width>
      <height>31</height>
     </rect>
@@ -761,7 +761,7 @@ color: rgb(255, 255, 255)</string>
    <property name="geometry">
     <rect>
      <x>390</x>
-     <y>470</y>
+     <y>460</y>
      <width>111</width>
      <height>31</height>
     </rect>
@@ -788,7 +788,7 @@ color: rgb(255, 255, 255)</string>
   <widget class="QLabel" name="employee_rewards_lbl">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>40</x>
      <y>310</y>
      <width>111</width>
      <height>31</height>
@@ -816,8 +816,8 @@ color: rgb(255, 255, 255)</string>
   <widget class="QLabel" name="employee_regularity_lbl">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>390</y>
+     <x>40</x>
+     <y>370</y>
      <width>111</width>
      <height>31</height>
     </rect>
@@ -841,11 +841,11 @@ color: rgb(255, 255, 255)</string>
     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
    </property>
   </widget>
-  <widget class="QLabel" name="employee_additional_lbl">
+  <widget class="QLabel" name="movements_lbl">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>350</y>
+     <x>40</x>
+     <y>400</y>
      <width>111</width>
      <height>31</height>
     </rect>
@@ -1092,6 +1092,118 @@ color: #dfac53;</string>
     <string>Coded by: Hossam Hamdy (0xGhazy)</string>
    </property>
   </widget>
+  <widget class="QLabel" name="label_34">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>340</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(24,24,36);
+border-color: rgb(16, 20, 20);
+color: #dfac53;</string>
+   </property>
+   <property name="text">
+    <string>الراتب الاضافي:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="add_sallary_lbl">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>340</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(24,24,36);
+border-color: rgb(16, 20, 20);
+color: rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>0000</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_35">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>430</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(24,24,36);
+border-color: rgb(16, 20, 20);
+color: #dfac53;</string>
+   </property>
+   <property name="text">
+    <string>اخري:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="other_de_lbl">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>430</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(24,24,36);
+border-color: rgb(16, 20, 20);
+color: rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>0000</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
   <zorder>line</zorder>
   <zorder>groupBox</zorder>
   <zorder>line_2</zorder>
@@ -1118,7 +1230,7 @@ color: #dfac53;</string>
   <zorder>employee_services_lbl</zorder>
   <zorder>employee_rewards_lbl</zorder>
   <zorder>employee_regularity_lbl</zorder>
-  <zorder>employee_additional_lbl</zorder>
+  <zorder>movements_lbl</zorder>
   <zorder>total_employee_loan_lbl</zorder>
   <zorder>total_eployee_rights</zorder>
   <zorder>line_5</zorder>
@@ -1129,6 +1241,10 @@ color: #dfac53;</string>
   <zorder>label_4</zorder>
   <zorder>label_5</zorder>
   <zorder>label_3</zorder>
+  <zorder>label_34</zorder>
+  <zorder>add_sallary_lbl</zorder>
+  <zorder>label_35</zorder>
+  <zorder>other_de_lbl</zorder>
  </widget>
  <resources>
   <include location="main.qrc"/>
